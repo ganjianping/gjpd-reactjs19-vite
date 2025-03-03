@@ -1,0 +1,20 @@
+{
+  "menuItems": [
+    { 
+      "label": "Home",
+      "url": "/"
+    },
+    { 
+      "label": "React.js",
+      "url": "/reactjs",
+      "children": [
+        { "label": "JSX", "url": "/demo/reactjs/jsx-example" }
+      ]
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com",
+      "isExternal": true
+    }
+  ]
+}

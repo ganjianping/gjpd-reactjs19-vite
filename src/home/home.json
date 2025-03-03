@@ -1,0 +1,14 @@
+{
+  "gridItems": [
+    {
+      "id": 1,
+      "title": "React.js",
+      "description": "React.js is a JavaScript library for building user interfaces."
+    },
+    {
+      "id": 2,
+      "title": "Material-UI",
+      "description": "Material-UI is a simple and customizable component library to build faster, beautiful, and more accessible React applications."
+    }
+  ]
+}
