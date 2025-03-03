@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { MainMenu } from './menu/Menu';
 import { Home } from './home/Home';
 import { JsxExample } from './demo/reactjs/JsxExample';
+import PropsExample from './demo/reactjs/PropsExample';
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/demo/reactjs/jsx-example" element={<JsxExample />} />
+          <Route path="/demo/reactjs/props-example" element={<PropsExample />} />
         </Routes>
       </div>
     </BrowserRouter>

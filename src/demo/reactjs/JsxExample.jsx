@@ -22,7 +22,7 @@ export function JsxExample() {
 
   return (
     <div className="jsx-features">
-      <h1>React JSX Essentials</h1>
+      <h1>React JSX Example</h1>
       
       <h3>JavaScript Expressions in JSX</h3>
       {greeting}

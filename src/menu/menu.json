@@ -8,7 +8,8 @@
       "label": "React.js",
       "url": "/reactjs",
       "children": [
-        { "label": "JSX", "url": "/demo/reactjs/jsx-example" }
+        { "label": "JSX", "url": "/demo/reactjs/jsx-example" },
+        { "label": "Props", "url": "/demo/reactjs/props-example" }
       ]
     },
     {
