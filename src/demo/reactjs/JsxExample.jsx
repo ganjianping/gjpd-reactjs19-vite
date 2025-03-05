@@ -34,6 +34,7 @@ export function JsxExample() {
       ) : (
         <p>Please log in</p>
       )}
+      {count >= 5 && <p>You're clicking a lot!</p>}
 
       <h3>Event Handling & useState hook</h3>
       <div>
