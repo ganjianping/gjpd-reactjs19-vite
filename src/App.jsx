@@ -8,6 +8,7 @@ import ListsAndKeysExample from './demo/reactjs/ListsAndKeysExample';
 import FormsExample from './demo/reactjs/FormsExample';
 import ContextExample from './demo/reactjs/ContextExample';
 import LifecycleExample from './demo/reactjs/LifecycleExample';
+import React19Features from './demo/reactjs/React19Features';
 import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/demo/reactjs/forms-example" element={<FormsExample />} />
           <Route path="/demo/reactjs/context-example" element={<ContextExample />} />
           <Route path="/demo/reactjs/lifecycle-example" element={<LifecycleExample />} />
+          <Route path="/demo/reactjs/react19-features" element={<React19Features />} />
         </Routes>
       </div>
     </BrowserRouter>
