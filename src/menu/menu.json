@@ -13,7 +13,8 @@
         { "label": "Hooks", "url": "/demo/reactjs/hooks-example" },
         { "label": "Lists & Keys", "url": "/demo/reactjs/lists-and-keys-example" },
         { "label": "Forms", "url": "/demo/reactjs/forms-example" },
-        { "label": "Context API", "url": "/demo/reactjs/context-example" }
+        { "label": "Context API", "url": "/demo/reactjs/context-example" },
+        { "label": "Component Lifecycle", "url": "/demo/reactjs/lifecycle-example" }
       ]
     },
     {
