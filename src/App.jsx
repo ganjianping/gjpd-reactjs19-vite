@@ -6,6 +6,7 @@ import PropsExample from './demo/reactjs/PropsExample';
 import HooksExample from './demo/reactjs/HooksExample';
 import ListsAndKeysExample from './demo/reactjs/ListsAndKeysExample';
 import FormsExample from './demo/reactjs/FormsExample';
+import ContextExample from './demo/reactjs/ContextExample';
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/demo/reactjs/hooks-example" element={<HooksExample />} />
           <Route path="/demo/reactjs/lists-and-keys-example" element={<ListsAndKeysExample />} />
           <Route path="/demo/reactjs/forms-example" element={<FormsExample />} />
+          <Route path="/demo/reactjs/context-example" element={<ContextExample />} />
         </Routes>
       </div>
     </BrowserRouter>
