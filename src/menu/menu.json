@@ -10,7 +10,8 @@
       "children": [
         { "label": "JSX", "url": "/demo/reactjs/jsx-example" },
         { "label": "Props", "url": "/demo/reactjs/props-example" },
-        { "label": "Hooks", "url": "/demo/reactjs/hooks-example" }
+        { "label": "Hooks", "url": "/demo/reactjs/hooks-example" },
+        { "label": "Lists & Keys", "url": "/demo/reactjs/lists-and-keys-example" }
       ]
     },
     {

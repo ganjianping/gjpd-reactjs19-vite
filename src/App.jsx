@@ -4,6 +4,7 @@ import { Home } from './home/Home';
 import { JsxExample } from './demo/reactjs/JsxExample';
 import PropsExample from './demo/reactjs/PropsExample';
 import HooksExample from './demo/reactjs/HooksExample';
+import ListsAndKeysExample from './demo/reactjs/ListsAndKeysExample';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/demo/reactjs/jsx-example" element={<JsxExample />} />
           <Route path="/demo/reactjs/props-example" element={<PropsExample />} />
           <Route path="/demo/reactjs/hooks-example" element={<HooksExample />} />
+          <Route path="/demo/reactjs/lists-and-keys-example" element={<ListsAndKeysExample />} />
         </Routes>
       </div>
     </BrowserRouter>
