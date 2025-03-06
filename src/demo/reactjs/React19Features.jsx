@@ -132,6 +132,8 @@ function React19Features() {
                 setCount(c => c + 1);
               });
             }}
+            aria-label={isPending ? 'Updating count' : 'Increment count'}
+            tabIndex={0}
           >
             {isPending ? 'Updating...' : 'Increment'}
           </button>

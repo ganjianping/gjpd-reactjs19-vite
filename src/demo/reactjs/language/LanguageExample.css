@@ -1,0 +1,35 @@
+.language-demo {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.language-controls {
+    margin-top: 20px;
+}
+
+.language-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.language-buttons button {
+    padding: 8px 16px;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    background: white;
+    color: #007bff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.language-buttons button:hover {
+    background: #e7f1ff;
+}
+
+.language-buttons button.active {
+    background: #007bff;
+    color: white;
+}

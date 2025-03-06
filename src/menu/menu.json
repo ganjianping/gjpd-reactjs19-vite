@@ -15,7 +15,8 @@
         { "label": "Forms", "url": "/demo/reactjs/forms-example" },
         { "label": "Context API", "url": "/demo/reactjs/context-example" },
         { "label": "Component Lifecycle", "url": "/demo/reactjs/lifecycle-example" },
-        { "label": "React 19 Features", "url": "/demo/reactjs/react19-features" }
+        { "label": "React 19 Features", "url": "/demo/reactjs/react19-features" },
+        { "label": "Language Example", "url": "/demo/reactjs/language-example" }
       ]
     },
     {
