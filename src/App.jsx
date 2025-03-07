@@ -12,6 +12,7 @@ import React19Features from './demo/reactjs/React19Features';
 import LanguageExample from './demo/reactjs/language/LanguageExample';
 import ScssExample from './demo/scss/ScssExample';
 import RobotoFontExample from './demo/mui/RobotoFontExample';
+import InputExample from './demo/mui/InputExample';
 import './App.css';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Route path="/demo/reactjs/language-example" element={<LanguageExample />} />
           <Route path="/demo/scss-example" element={<ScssExample />} />
           <Route path="/demo/mui/roboto-font-example" element={<RobotoFontExample />} />
+          <Route path="/demo/mui/input-example" element={<InputExample />} />
         </Routes>
       </div>
     </BrowserRouter>

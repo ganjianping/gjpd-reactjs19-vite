@@ -23,7 +23,8 @@
       "label": "Material UI",
       "url": "/mui",
       "children": [
-        { "label": "Roboto Font", "url": "/demo/mui/roboto-font-example" }
+        { "label": "Roboto Font", "url": "/demo/mui/roboto-font-example" },
+        { "label": "Input Components", "url": "/demo/mui/input-example" }
       ]
     },
     {
