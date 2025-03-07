@@ -5,8 +5,21 @@ This template provides a minimal setup to get React working in Vite with HMR and
 ## Vite
 
 - npm create vite@latest . -- --template react
-- update vite.config.js
+ - react, react-dom
+ - vite, @vitejs/plugin-react
+ - @types/react, @types/react-dom
+ - eslint, @eslint/js, eslint-plugin-react-hooks, eslint-plugin-react-refresh
+ - vite.config.js, eslint.config.js
 
 ## Prettier
 - npm install --save-dev prettier eslint-config-prettier
-- generate .prettierrc
+ - .prettierrc
+
+## MUI
+- npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+
+## SCSS
+- npm install --save-dev sass 
+
+## Font
+- npm install @fontsource/roboto
