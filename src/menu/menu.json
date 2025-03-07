@@ -20,6 +20,10 @@
       ]
     },
     {
+      "label": "SCSS",
+      "url": "/demo/scss-example"
+    },
+    {
       "label": "GitHub",
       "url": "https://github.com",
       "isExternal": true

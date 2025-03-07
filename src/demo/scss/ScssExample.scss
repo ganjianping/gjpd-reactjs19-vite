@@ -1,0 +1,85 @@
+@use 'sass:color';
+@use './_variables' as v;
+@use './_mixins' as m;
+
+.scss-demo {
+  padding: v.$container-padding;
+  font-family: v.$body-font-family;
+
+  h2 {
+    font-family: v.$heading-font-family;
+    color: v.$primary-color;
+    margin-bottom: v.$spacing-unit * 2;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: v.$spacing-unit * 2;
+
+    @include m.responsive(mobile) {
+      grid-template-columns: 1fr;
+    }
+
+    @include m.responsive(tablet) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .feature-card {
+    border: 1px solid v.$secondary-color;
+    border-radius: 8px;
+    padding: v.$spacing-unit * 2;
+
+    @include m.flex-center;
+    flex-direction: column;
+    text-align: center;
+
+    h3 {
+      color: v.$secondary-color;
+      margin-bottom: v.$spacing-unit;
+    }
+  }
+
+  .button-showcase {
+    margin-top: v.$spacing-unit * 3;
+    display: flex;
+    gap: v.$spacing-unit;
+    flex-wrap: wrap;
+
+    .primary-button {
+      @include m.button-variant(v.$primary-color);
+    }
+
+    .success-button {
+      @include m.button-variant(v.$success-color);
+    }
+
+    .warning-button {
+      @include m.button-variant(v.$warning-color, black);
+    }
+
+    .error-button {
+      @include m.button-variant(v.$error-color);
+    }
+  }
+
+  .responsive-demo {
+    margin-top: v.$spacing-unit * 3;
+    padding: v.$spacing-unit * 2;
+    background-color: color.adjust(v.$primary-color, $lightness: 40%);
+    border-radius: 8px;
+
+    @include m.responsive(mobile) {
+      font-size: 14px;
+    }
+
+    @include m.responsive(tablet) {
+      font-size: 16px;
+    }
+
+    @include m.responsive(desktop) {
+      font-size: 18px;
+    }
+  }
+}

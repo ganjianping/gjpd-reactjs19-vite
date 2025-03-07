@@ -1,0 +1,37 @@
+@use './_variables' as v;
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin responsive($breakpoint) {
+  @if $breakpoint == mobile {
+    @media (max-width: v.$mobile) {
+      @content;
+    }
+  } @else if $breakpoint == tablet {
+    @media (min-width: v.$tablet) {
+      @content;
+    }
+  } @else if $breakpoint == desktop {
+    @media (min-width: v.$desktop) {
+      @content;
+    }
+  }
+}
+
+@mixin button-variant($bg-color, $text-color: white) {
+  background-color: $bg-color;
+  color: $text-color;
+  border: none;
+  padding: v.$spacing-unit v.$spacing-unit * 2;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

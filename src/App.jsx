@@ -10,6 +10,7 @@ import ContextExample from './demo/reactjs/ContextExample';
 import LifecycleExample from './demo/reactjs/LifecycleExample';
 import React19Features from './demo/reactjs/React19Features';
 import LanguageExample from './demo/reactjs/language/LanguageExample';
+import ScssExample from './demo/scss/ScssExample';
 import './App.css';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/demo/reactjs/lifecycle-example" element={<LifecycleExample />} />
           <Route path="/demo/reactjs/react19-features" element={<React19Features />} />
           <Route path="/demo/reactjs/language-example" element={<LanguageExample />} />
+          <Route path="/demo/scss-example" element={<ScssExample />} />
         </Routes>
       </div>
     </BrowserRouter>
