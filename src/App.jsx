@@ -14,6 +14,7 @@ import ScssExample from './demo/scss/ScssExample';
 import RobotoFontExample from './demo/mui/RobotoFontExample';
 import InputExample from './demo/mui/InputExample';
 import DataDisplayExample from './demo/mui/DataDisplayExample';
+import FeedbackExample from './demo/mui/FeedbackExample';
 import './App.css';
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
           <Route path="/demo/mui/roboto-font-example" element={<RobotoFontExample />} />
           <Route path="/demo/mui/input-example" element={<InputExample />} />
           <Route path="/demo/mui/data-display-example" element={<DataDisplayExample />} />
+          <Route path="/demo/mui/feedback-example" element={<FeedbackExample />} />
         </Routes>
       </div>
     </BrowserRouter>

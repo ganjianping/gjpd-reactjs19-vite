@@ -24,8 +24,9 @@
       "url": "/mui",
       "children": [
         { "label": "Roboto Font", "url": "/demo/mui/roboto-font-example" },
-        { "label": "Input Components", "url": "/demo/mui/input-example" },
-        { "label": "Data Display", "url": "/demo/mui/data-display-example" }
+        { "label": "Inputs", "url": "/demo/mui/input-example" },
+        { "label": "Data Display", "url": "/demo/mui/data-display-example" },
+        { "label": "Feedback Components", "url": "/demo/mui/feedback-example" }
       ]
     },
     {
